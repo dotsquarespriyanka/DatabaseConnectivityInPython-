@@ -14,10 +14,6 @@ This project demonstrates how to connect to a MySQL database using Python, fetch
 
 2. Install the required libraries using `pip`:
 
-   ```bash
-   pip install mysql-connector-python pandas
-   ```
-
 ## Usage
 
 1. Update the database connection details in the code:
@@ -28,21 +24,15 @@ This project demonstrates how to connect to a MySQL database using Python, fetch
 
 2. Run the Python script to fetch data from the MySQL table and create a DataFrame:
 
-   ```bash
-   python fetch_data.py
-   ```
-
 3. The script will establish a connection, execute the SQL query, fetch data, and create a DataFrame.
 
 ## Code Explanation
 
-The Python script `fetch_data.py` contains the following steps:
-
-1. Import necessary libraries (`mysql.connector` and `pandas`).
+1. Import necessary libraries .
 
 2. Create a connection object to the MySQL database.
 
-3. Define an SQL query to fetch data from a specific table (`diwali_sales_data` in this case).
+3. Define an SQL query to fetch data from a specific table.
 
 4. Execute the query using a cursor.
 
