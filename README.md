@@ -43,3 +43,5 @@ This project demonstrates how to connect to a MySQL database using Python, fetch
 7. Create a DataFrame using the fetched data and column names.
 
 8. Close the cursor and the database connection.
+
+9. Visualise and analyse the Data imported.
